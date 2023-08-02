@@ -1,1 +1,1 @@
-# korp-latvia-razor
+# fraternity-external-site

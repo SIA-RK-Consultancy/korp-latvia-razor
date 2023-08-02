@@ -1,0 +1,311 @@
+@media (min-width: 360px) and (orientation: portrait) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_portrait_420x925.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_portrait_420x925.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_portrait_420x925.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_portrait_420x925.jpg"); }
+}
+
+@media (min-width: 420px) and (orientation: portrait) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_portrait_576x1268.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_portrait_490x1080.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_portrait_576x1268.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_portrait_576x925.jpg"); }
+}
+
+@media (min-width: 576px) and (orientation: portrait) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_portrait_full.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_portrait_490x1080.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_portrait_768x1690.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_portrait_768x1690.jpg"); }
+}
+
+@media (min-width: 576px) and (orientation: landscape) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_768x432.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_768x432.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_768x432.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_768x432.jpg"); }
+}
+
+@media (min-width: 768px) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_992x558.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_992x558.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_992x558.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_992x558.jpg"); }
+}
+
+@media (min-width: 992px) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_1200x675.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_1200x675.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_1200x675.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_1200x675.jpg"); }
+}
+
+@media (min-width: 1200px) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_1280x720.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_1280x720.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_1280x720.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_1280x720.jpg"); }
+}
+
+@media (min-width: 1280px) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_1400x788.jpg") }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_1400x788.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_1400x788.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_1400x788.jpg"); }
+}
+
+@media (min-width: 1400px) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_1920x1080.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_1920x1080.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_1920x1080.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_1920x1080.jpg"); }
+}
+
+@media (min-width: 1920px) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_wide.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_wide.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_wide.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_wide.jpg"); }
+}
+
+@media (max-width: 576px) and (orientation: landscape) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_576x324.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_576x324.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_576x324.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_576x324.jpg"); }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  .no-webp .hero { background-image: url("../img/hero/Vapenis_portrait_360x800.jpg"); }
+
+  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_portrait_360x800.jpg"); }
+
+  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_portrait_360x800.jpg"); }
+
+  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_portrait_360x800.jpg"); }
+}
+
+@media (min-width: 360px) and (orientation: portrait) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_portrait_420x925.webp); }
+}
+
+@media (min-width: 360px) and (orientation: portrait) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_portrait_420x925.webp); }
+}
+
+@media (min-width: 360px) and (orientation: portrait) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_portrait_420x925.webp); }
+}
+
+@media (min-width: 360px) and (orientation: portrait) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_portrait_420x925.webp); }
+}
+
+@media (min-width: 420px) and (orientation: portrait) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_portrait_576x1268.webp); }
+}
+
+@media (min-width: 420px) and (orientation: portrait) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_portrait_490x1080.webp); }
+}
+
+@media (min-width: 420px) and (orientation: portrait) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_portrait_576x1268.webp); }
+}
+
+@media (min-width: 420px) and (orientation: portrait) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_portrait_576x925.webp); }
+}
+
+@media (min-width: 576px) and (orientation: portrait) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_portrait_full.webp); }
+}
+
+@media (min-width: 576px) and (orientation: portrait) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_portrait_490x1080.webp); }
+}
+
+@media (min-width: 576px) and (orientation: portrait) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_portrait_768x1690.webp); }
+}
+
+@media (min-width: 576px) and (orientation: portrait) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_portrait_768x1690.webp); }
+}
+
+@media (min-width: 576px) and (orientation: landscape) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_768x432.webp); }
+}
+
+@media (min-width: 576px) and (orientation: landscape) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_768x432.webp); }
+}
+
+@media (min-width: 576px) and (orientation: landscape) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_768x432.webp); }
+}
+
+@media (min-width: 576px) and (orientation: landscape) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_768x432.webp); }
+}
+
+@media (min-width: 768px) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_992x558.webp); }
+}
+
+@media (min-width: 768px) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_992x558.webp); }
+}
+
+@media (min-width: 768px) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_992x558.webp); }
+}
+
+@media (min-width: 768px) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_992x558.webp); }
+}
+
+@media (min-width: 992px) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_1200x675.webp); }
+}
+
+@media (min-width: 992px) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_1200x675.webp); }
+}
+
+@media (min-width: 992px) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_1200x675.webp); }
+}
+
+@media (min-width: 992px) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_1200x675.webp); }
+}
+
+@media (min-width: 1200px) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_1280x720.webp); }
+}
+
+@media (min-width: 1200px) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_1280x720.webp); }
+}
+
+@media (min-width: 1200px) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_1280x720.webp); }
+}
+
+@media (min-width: 1200px) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_1280x720.webp); }
+}
+
+@media (min-width: 1280px) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_1400x788.webp); }
+}
+
+@media (min-width: 1280px) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_1400x788.webp); }
+}
+
+@media (min-width: 1280px) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_1400x788.webp); }
+}
+
+@media (min-width: 1280px) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_1400x788.webp); }
+}
+
+@media (min-width: 1400px) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_1920x1080.webp); }
+}
+
+@media (min-width: 1400px) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_1920x1080.webp); }
+}
+
+@media (min-width: 1400px) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_1920x1080.webp); }
+}
+
+@media (min-width: 1400px) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_1920x1080.webp); }
+}
+
+@media (min-width: 1920px) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_wide.webp); }
+}
+
+@media (min-width: 1920px) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_wide.webp); }
+}
+
+@media (min-width: 1920px) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_wide.webp); }
+}
+
+@media (min-width: 1920px) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_wide.webp); }
+}
+
+@media (max-width: 576px) and (orientation: landscape) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_576x324.webp); }
+}
+
+@media (max-width: 576px) and (orientation: landscape) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_576x324.webp); }
+}
+
+@media (max-width: 576px) and (orientation: landscape) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_576x324.webp); }
+}
+
+@media (max-width: 576px) and (orientation: landscape) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_576x324.webp); }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  .webp .hero { background-image: url(../img/hero/Vapenis_portrait_360x800.webp); }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_portrait_360x800.webp); }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_portrait_360x800.webp); }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_portrait_360x800.webp); }
+}

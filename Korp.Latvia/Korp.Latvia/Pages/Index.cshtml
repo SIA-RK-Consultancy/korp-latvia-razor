@@ -1,0 +1,296 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Sākums";
+}
+
+<section class="hero d-flex align-content-center justify-content-center">
+    <div class="container d-flex flex-column align-content-center justify-content-center">
+        <div class="text-center">
+            <h1 class="text-light">
+                Kā tev patiktu izbaudīt @Model.Vecums gadus senas tradīcijas mūsdienu izpildījumā?
+            </h1>
+        </div>
+        <div class="hero-buttons text-center pt-4 w-100">
+            <a class="aboutButton btn btn-primary me-3" asp-page="/About">Uzzināt vairāk</a>
+            <a class="contactButton btn btn-outline-secondary" asp-page="/Contacts">Sazinies ar mums</a>
+        </div>
+    </div>
+</section>
+
+<section class="goals bg-secondary py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 py-4 text-center">
+                <h4>
+                    Mūsu mērķi
+                </h4>
+            </div>
+            <div class="col-md-3 text-center">
+                <picture>
+             @*       <source srcset="img/icons/1_ikona.webp" type="image/webp">*@
+                    <img src="img/icons/1_ikona.png" alt="Latvijas_kontura" class="icon">
+                </picture>
+                <p>
+                    Vienot akadēmiski izglītotus latviešus dzimtenē un ārpus tās patiesā brāļu mīlestībā
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <picture>
+           @*         <source srcset="img/icons/2_ikona.webp" type="image/webp">*@
+                    <img src="img/icons/2_ikona.png" alt="Latvijas_karogs" class="icon">
+                </picture>
+                <p>
+                    Stāvēt pār latviešu tautas un Latvijas valsts brīvību un neatkarību
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <picture>
+            @*        <source srcset="img/icons/3_ikona.webp" type="image/webp">*@
+                    <img src="img/icons/3_ikona.png" alt="akademiska_cepure" class="icon">
+                </picture>
+                <p>
+                    Vairot latviešu tautas garīgos spēkus, lai vīru krietnums nestu mūsu tautai labākas dienas
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <picture>
+        @*            <source srcset="img/icons/4_ikona.webp" type="image/webp">*@
+                    <img src="img/icons/4_ikona.png" alt="tveriena_sadotas_rokas" class="icon">
+                </picture>
+                <p>
+                    Aizstāvēt savas tautas, korporācijas un savu godu
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="guest-events-section py-4">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-12 py-4 mb-4 text-center">
+                <h4>Mūsu ikdiena</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-3 px-2">
+                <picture>
+                    <source media="(min-width: 1400px)" type="image/jpeg" srcset="/img/atklasana/Atklasanas_svetki_630x354.jpg" />
+                    <source media="(min-width: 1200px)" type="image/jpeg" srcset="/img/atklasana/Atklasanas_svetki_540x303.jpg" />
+                    <source media="(min-width: 992px)" type="image/jpeg" srcset="/img/atklasana/Atklasanas_svetki_450x253.jpg" />
+                    <source media="(min-width: 768px)" type="image/jpeg" srcset="/img/atklasana/Atklasanas_svetki_330x186.jpg" />
+                    <source media="(min-width: 576px)" type="image/jpeg" srcset="/img/atklasana/Atklasanas_svetki_540x303.jpg" />
+                    <source media="(max-width: 576px)" type="image/jpeg" srcset="/img/atklasana/Atklasanas_svetki_450x253.jpg" />
+@*                    <source media="(min-width: 1400px)" type="image/webp" srcset="/img/atklasana/Atklasanas_svetki_630x354.webp" />
+                    <source media="(min-width: 1200px)" type="image/webp" srcset="/img/atklasana/Atklasanas_svetki_540x303.webp" />
+                    <source media="(min-width: 992px)" type="image/webp" srcset="/img/atklasana/Atklasanas_svetki_450x253.webp" />
+                    <source media="(min-width: 768px)" type="image/webp" srcset="/img/atklasana/Atklasanas_svetki_330x186.webp" />
+                    <source media="(min-width: 576px)" type="image/webp" srcset="/img/atklasana/Atklasanas_svetki_540x303.webp" />
+                    <source media="(max-width: 576px)" type="image/webp" srcset="/img/atklasana/Atklasanas_svetki_450x253.webp" />*@
+                    <img class="rounded img-fluid" loading="lazy" decoding="async" src="/img/atklasana/Atklasanas_svetki_630x354.jpg" alt="iepazisanas_vakari">
+                </picture>   
+                <div class="mt-2">
+                    <h5>Viesu vakari</h5>
+                    <p>
+                        Uzzini, ko studentu korporācija var Tev sniegt. Pastāstīsim par to, kas mēs esam un ko mēs darām. Varēsi arī iepazīt mūsu namu un iespējas, ko tas piedāvā.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 px-2">
+                <picture>
+                    <source media="(min-width: 1400px)" type="image/jpeg" srcset="/img/literarais/Literarais_630x354.jpg" />
+                    <source media="(min-width: 1200px)" type="image/jpeg" srcset="/img/literarais/Literarais_540x303.jpg" />
+                    <source media="(min-width: 992px)" type="image/jpeg" srcset="/img/literarais/Literarais_450x253.jpg" />
+                    <source media="(min-width: 768px)" type="image/jpeg" srcset="/img/literarais/Literarais_330x186.jpg" />
+                    <source media="(min-width: 576px)" type="image/jpeg" srcset="/img/literarais/Literarais_540x303.jpg" />
+                    <source media="(max-width: 576px)" type="image/jpeg" srcset="/img/literarais/Literarais_450x253.jpg" />
+@*                    <source media="(min-width: 1400px)" type="image/webp" srcset="/img/literarais/Literarais_630x354.webp" />
+                    <source media="(min-width: 1200px)" type="image/webp" srcset="/img/literarais/Literarais_540x303.webp" />
+                    <source media="(min-width: 992px)" type="image/webp" srcset="/img/literarais/Literarais_450x253.webp" />
+                    <source media="(min-width: 768px)" type="image/webp" srcset="/img/literarais/Literarais_330x186.webp" />
+                    <source media="(min-width: 576px)" type="image/webp" srcset="/img/literarais/Literarais_540x303.webp" />
+                    <source media="(max-width: 576px)" type="image/webp" srcset="/img/literarais/Literarais_450x253.webp" />*@
+                    <img class="rounded img-fluid" loading="lazy" decoding="async" src="/img/literarais/Literarais_630x354.jpg" alt="literarais_vakars">
+                </picture>   
+                <div class="mt-2">
+                    <h5>Literārie vakari</h5>
+                    <p>
+                        Iepazīsti mūsu akadēmisko pusi. Regulāri organizējam izglītojošus pasākumus par dažādiem tematiem gan saviem biedriem, gan kopā ar citām studentu un studenšu korporācijām.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 px-2">
+                <picture>
+                    <source media="(min-width: 1400px)" type="image/jpeg" srcset="/img/paukosanas/Paukosanas_630x354.jpg" />
+                    <source media="(min-width: 1200px)" type="image/jpeg" srcset="/img/paukosanas/Paukosanas_540x303.jpg" />
+                    <source media="(min-width: 992px)" type="image/jpeg" srcset="/img/paukosanas/Paukosanas_450x253.jpg" />
+                    <source media="(min-width: 768px)" type="image/jpeg" srcset="/img/paukosanas/Paukosanas_330x186.jpg" />
+                    <source media="(min-width: 576px)" type="image/jpeg" srcset="/img/paukosanas/Paukosanas_540x303.jpg" />
+                    <source media="(max-width: 576px)" type="image/jpeg" srcset="/img/paukosanas/Paukosanas_450x253.jpg" />
+@*                    <source media="(min-width: 1400px)" type="image/webp" srcset="/img/paukosanas/Paukosanas_630x354.webp" />
+                    <source media="(min-width: 1200px)" type="image/webp" srcset="/img/paukosanas/Paukosanas_540x303.webp" />
+                    <source media="(min-width: 992px)" type="image/webp" srcset="/img/paukosanas/Paukosanas_450x253.webp" />
+                    <source media="(min-width: 768px)" type="image/webp" srcset="/img/paukosanas/Paukosanas_330x186.webp" />
+                    <source media="(min-width: 576px)" type="image/webp" srcset="/img/paukosanas/Paukosanas_540x303.webp" />
+                    <source media="(max-width: 576px)" type="image/webp" srcset="/img/paukosanas/Paukosanas_450x253.webp" />*@
+                    <img class="rounded img-fluid" loading="lazy" decoding="async" src="/img/paukosanas/Paukosanas_630x354.jpg" alt="paukosanas_vakari">
+                </picture>        
+                      <div class="mt-2">
+                    <h5>Akadēmiskā paukošanās</h5>
+                    <p>
+                        Iepazīsti akadēmisko paukošanu – tradīciju, kuru korporācijas piekopj kopš 11. gadsimta. Pieredzējušu paukotāju vadībā būs iespēja izmēģināt savus spēkus rapiera pārvaldīšanā.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 px-2">
+                <picture>
+                    <source media="(min-width: 1400px)" type="image/jpeg" srcset="/img/komerss/Komerss_630x354.jpg" />
+                    <source media="(min-width: 1200px)" type="image/jpeg" srcset="/img/komerss/Komerss_540x303.jpg" />
+                    <source media="(min-width: 992px)" type="image/jpeg" srcset="/img/komerss/Komerss_450x253.jpg" />
+                    <source media="(min-width: 768px)" type="image/jpeg" srcset="/img/komerss/Komerss_330x186.jpg" />
+                    <source media="(min-width: 576px)" type="image/jpeg" srcset="/img/komerss/Komerss_540x303.jpg" />
+                    <source media="(max-width: 576px)" type="image/jpeg" srcset="/img/komerss/Komerss_450x253.jpg" />
+@*                    <source media="(min-width: 1400px)" type="image/webp" srcset="/img/komerss/Komerss_630x354.webp" />
+                    <source media="(min-width: 1200px)" type="image/webp" srcset="/img/komerss/Komerss_540x303.webp" />
+                    <source media="(min-width: 992px)" type="image/webp" srcset="/img/komerss/Komerss_450x253.webp" />
+                    <source media="(min-width: 768px)" type="image/webp" srcset="/img/komerss/Komerss_330x186.webp" />
+                    <source media="(min-width: 576px)" type="image/webp" srcset="/img/komerss/Komerss_540x303.webp" />
+                    <source media="(max-width: 576px)" type="image/webp" srcset="/img/komerss/Komerss_450x253.webp" />*@
+                    <img class="rounded img-fluid" loading="lazy" decoding="async" src="/img/komerss/Komerss_540x303.jpg" alt="alus_vakars">
+                </picture>  
+                <div class="mt-2">
+                    <h5>Citi sadzīves pasākumi</h5>
+                    <p>
+                        Izbaudi draudzīgu gaisotni un iepazīsti esošos korporācijas Latvia biedrus. Uzzini viņu stāstus par dažādiem laikiem un noskaidro, ko no sirds katram nozīmē korporācija.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="py-4 text-center">
+            Ir interese? Vēlies ierasties? Lieliski! Atstāj savu kontaktinformāciju. Mēs ar Tevi sazināsimies.
+        </h2>
+
+        <div class="text-center">
+            <a class="btn btn-primary" asp-page="/Contacts">
+                Pieteikties
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="common-questions-section p-5 bg-secondary text-center">
+    <h4>Biežāk uzdotie jautājumi</h4>
+    <div class="container text-start mt-5">
+
+        <div class="accordion" id="accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                        <h5>Kā kļūt par biedru?</h5>
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>Lai kļūtu par studentu korporācijas biedru, ir jāapmeklē viesu vakari, kuros iepazīsi korporācijas sadzīvi un tās biedrus. Ja būs interese kļūt par biedru, lemsim par tavu uzņemšanu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h5>Kur notiek viesu vakari?</h5>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>Visi viesu vakari notiek mūsu telpās Šarlotes ielā 3.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h5>Kādā apģērbā man ir jāierodas?</h5>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>
+                            Korporācijās ir pieņemts uz pasākumiem ierasties uzvalkā. Ja uzvalks nav pa
+                            rokai,
+                            tad business casual vai melnas bikses un klasiskais krekls derēs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h5>
+                            Uz cik viesu vakariem man
+                            jāierodas, lai tiktu uzņemts?
+                        </h5>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>
+                            Ideālā gadījumā esi apmeklējis vismaz 2 viesu vakaris. Pats galvenais, ka esi
+                            iepazinies ar mums, ar mūsu tradīcijām un sadzīvi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <h5>Ko darīt, ja netieku uz viesu vakariem?</h5>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                    <div class="accordion-body">
+                        <p>
+                            Kaut arī viesu vakari mēdz būt akadēmisko semestru sākumos, pasākumi notiek visu
+                            semestri. Dod mums ziņu un atradīsim veidu, kā dot tev iespēju iepazīt studentu
+                            korporāciju Latvia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="reasons-to-aply-section py-5">
+    <div class="container text-center">
+        <h2 class="mb-5">Kāpēc pievienoties studentu korporācijai Latvia?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Kontakti</h4>
+                <p class="mt-4">
+                    Iegūsti jaunus draugus un iepazīt cilvēkus no dažādām profesionālajām jomām.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h4>Atbalsts</h4>
+                <p class="mt-4">
+                    Bez maksas dzīvo korporācijas namā, apmeklē korporācijas pasākumus.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h4>Attīstība</h4>
+                <p class="mt-4">
+                    Apgūsti paukošanos, etiķeti, balles dejas u.c. Piedalies izglītojošos pasākumos.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
