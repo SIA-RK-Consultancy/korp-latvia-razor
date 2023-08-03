@@ -1,311 +1,215 @@
 @media (min-width: 360px) and (orientation: portrait) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_portrait_420x925.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Vapenis_9_16.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_portrait_420x925.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Svetku_akts_9_16.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_portrait_420x925.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Paukosanas_9_16.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_portrait_420x925.jpg"); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Atklasanas_svetki_9_16.jpg");
+    }
 }
 
 @media (min-width: 420px) and (orientation: portrait) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_portrait_576x1268.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/576x1024/Vapenis_9_16.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_portrait_490x1080.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/576x1024/Svetku_akts_9_16.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_portrait_576x1268.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/576x1024/Paukosanas_9_16.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_portrait_576x925.jpg"); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/576x1024/Atklasanas_svetki_9_16.jpg");
+    }
 }
 
 @media (min-width: 576px) and (orientation: portrait) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_portrait_full.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/768x1365/Vapenis_9_16.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_portrait_490x1080.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/768x1365/Svetku_akts_9_16.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_portrait_768x1690.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/768x1365/Paukosanas_9_16.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_portrait_768x1690.jpg"); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/768x1365/Atklasanas_svetki_9_16.jpg");
+    }
 }
 
 @media (min-width: 576px) and (orientation: landscape) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_768x432.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/768x432/Vapenis_16_9.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_768x432.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/768x432/Svetku_akts_16_9.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_768x432.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/768x432/Paukosanas_16_9.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_768x432.jpg"); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/768x432/Atklasanas_svetki_16_9.jpg");
+    }
 }
 
 @media (min-width: 768px) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_992x558.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/992x558/Vapenis_16_9.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_992x558.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/992x558/Svetku_akts_16_9.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_992x558.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/992x558/Paukosanas_16_9.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_992x558.jpg"); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/992x558/Atklasanas_svetki_16_9.jpg");
+    }
 }
 
 @media (min-width: 992px) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_1200x675.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1200x675/Vapenis_16_9.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_1200x675.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1200x675/Svetku_akts_16_9.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_1200x675.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1200x675/Paukosanas_16_9.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_1200x675.jpg"); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1200x675/Atklasanas_svetki_16_9.jpg");
+    }
 }
+
+/*@media (min-width: 1200px) {
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//img/hero/Vapenis_1280x720.jpg");
+    }
+
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//img/svetki/Svetku_akts_1280x720.jpg");
+    }
+
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//img/paukosanas/Paukosanas_1280x720.jpg");
+    }
+
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//img/atklasana/Atklasanas_svetki_1280x720.jpg");
+    }
+}*/
 
 @media (min-width: 1200px) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_1280x720.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1400x788/Vapenis_16_9.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_1280x720.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1400x788/Svetku_akts_16_9.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_1280x720.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1400x788/Paukosanas_16_9.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_1280x720.jpg"); }
-}
-
-@media (min-width: 1280px) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_1400x788.jpg") }
-
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_1400x788.jpg"); }
-
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_1400x788.jpg"); }
-
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_1400x788.jpg"); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1400x788/Atklasanas_svetki_16_9.jpg");
+    }
 }
 
 @media (min-width: 1400px) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_1920x1080.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1690x951/Vapenis_16_9.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_1920x1080.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1690x951/Svetku_akts_16_9.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_1920x1080.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1690x951/Paukosanas_16_9.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_1920x1080.jpg"); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/1690x951/Atklasanas_svetki_16_9.jpg");
+    }
 }
 
 @media (min-width: 1920px) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_wide.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/2400x1350/Vapenis_16_9.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_wide.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/2400x1350/Svetku_akts_16_9.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_wide.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/2400x1350/Paukosanas_16_9.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_wide.jpg"); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/2400x1350/Atklasanas_svetki_16_9.jpg");
+    }
 }
 
 @media (max-width: 576px) and (orientation: landscape) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_576x324.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/576x324/Vapenis_16_9.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_576x324.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/576x324/Svetku_akts_16_9.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_576x324.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/576x324/Paukosanas_16_9.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_576x324.jpg"); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/16_9/576x324/Atklasanas_svetki_16_9.jpg");
+    }
 }
 
 @media (max-width: 360px) and (orientation: portrait) {
-  .no-webp .hero { background-image: url("../img/hero/Vapenis_portrait_360x800.jpg"); }
+    .hero {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Vapenis_9_16.jpg");
+    }
 
-  .no-webp .gallery-start-section { background-image: url("../img/svetki/Svetku_akts_portrait_360x800.jpg"); }
+    .gallery-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Svetku_akts_9_16.jpg");
+    }
 
-  .no-webp .about-start-section { background-image: url("../img/paukosanas/Paukosanas_portrait_360x800.jpg"); }
+    .about-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Paukosanas_9_16.jpg");
+    }
 
-  .no-webp .contact-start-section { background-image: url("../img/atklasana/Atklasanas_svetki_portrait_360x800.jpg"); }
-}
-
-@media (min-width: 360px) and (orientation: portrait) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_portrait_420x925.webp); }
-}
-
-@media (min-width: 360px) and (orientation: portrait) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_portrait_420x925.webp); }
-}
-
-@media (min-width: 360px) and (orientation: portrait) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_portrait_420x925.webp); }
-}
-
-@media (min-width: 360px) and (orientation: portrait) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_portrait_420x925.webp); }
-}
-
-@media (min-width: 420px) and (orientation: portrait) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_portrait_576x1268.webp); }
-}
-
-@media (min-width: 420px) and (orientation: portrait) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_portrait_490x1080.webp); }
-}
-
-@media (min-width: 420px) and (orientation: portrait) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_portrait_576x1268.webp); }
-}
-
-@media (min-width: 420px) and (orientation: portrait) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_portrait_576x925.webp); }
-}
-
-@media (min-width: 576px) and (orientation: portrait) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_portrait_full.webp); }
-}
-
-@media (min-width: 576px) and (orientation: portrait) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_portrait_490x1080.webp); }
-}
-
-@media (min-width: 576px) and (orientation: portrait) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_portrait_768x1690.webp); }
-}
-
-@media (min-width: 576px) and (orientation: portrait) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_portrait_768x1690.webp); }
-}
-
-@media (min-width: 576px) and (orientation: landscape) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_768x432.webp); }
-}
-
-@media (min-width: 576px) and (orientation: landscape) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_768x432.webp); }
-}
-
-@media (min-width: 576px) and (orientation: landscape) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_768x432.webp); }
-}
-
-@media (min-width: 576px) and (orientation: landscape) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_768x432.webp); }
-}
-
-@media (min-width: 768px) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_992x558.webp); }
-}
-
-@media (min-width: 768px) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_992x558.webp); }
-}
-
-@media (min-width: 768px) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_992x558.webp); }
-}
-
-@media (min-width: 768px) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_992x558.webp); }
-}
-
-@media (min-width: 992px) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_1200x675.webp); }
-}
-
-@media (min-width: 992px) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_1200x675.webp); }
-}
-
-@media (min-width: 992px) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_1200x675.webp); }
-}
-
-@media (min-width: 992px) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_1200x675.webp); }
-}
-
-@media (min-width: 1200px) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_1280x720.webp); }
-}
-
-@media (min-width: 1200px) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_1280x720.webp); }
-}
-
-@media (min-width: 1200px) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_1280x720.webp); }
-}
-
-@media (min-width: 1200px) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_1280x720.webp); }
-}
-
-@media (min-width: 1280px) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_1400x788.webp); }
-}
-
-@media (min-width: 1280px) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_1400x788.webp); }
-}
-
-@media (min-width: 1280px) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_1400x788.webp); }
-}
-
-@media (min-width: 1280px) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_1400x788.webp); }
-}
-
-@media (min-width: 1400px) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_1920x1080.webp); }
-}
-
-@media (min-width: 1400px) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_1920x1080.webp); }
-}
-
-@media (min-width: 1400px) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_1920x1080.webp); }
-}
-
-@media (min-width: 1400px) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_1920x1080.webp); }
-}
-
-@media (min-width: 1920px) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_wide.webp); }
-}
-
-@media (min-width: 1920px) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_wide.webp); }
-}
-
-@media (min-width: 1920px) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_wide.webp); }
-}
-
-@media (min-width: 1920px) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_wide.webp); }
-}
-
-@media (max-width: 576px) and (orientation: landscape) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_576x324.webp); }
-}
-
-@media (max-width: 576px) and (orientation: landscape) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_576x324.webp); }
-}
-
-@media (max-width: 576px) and (orientation: landscape) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_576x324.webp); }
-}
-
-@media (max-width: 576px) and (orientation: landscape) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_576x324.webp); }
-}
-
-@media (max-width: 360px) and (orientation: portrait) {
-  .webp .hero { background-image: url(../img/hero/Vapenis_portrait_360x800.webp); }
-}
-
-@media (max-width: 360px) and (orientation: portrait) {
-  .webp .gallery-start-section { background-image: url(../img/svetki/Svetku_akts_portrait_360x800.webp); }
-}
-
-@media (max-width: 360px) and (orientation: portrait) {
-  .webp .about-start-section { background-image: url(../img/paukosanas/Paukosanas_portrait_360x800.webp); }
-}
-
-@media (max-width: 360px) and (orientation: portrait) {
-  .webp .contact-start-section { background-image: url(../img/atklasana/Atklasanas_svetki_portrait_360x800.webp); }
+    .contact-start-section {
+        background-image: url("https://korp-latvia-cdn-ckfeapdbhsg8cmb0.z01.azurefd.net//images/overlay/9_16/480x853/Atklasanas_svetki_9_16.jpg");
+    }
 }
