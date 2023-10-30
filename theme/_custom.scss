@@ -122,6 +122,9 @@ p {
   align-items: center;
   line-height: 1.6rem;
   --bs-navbar-brand-padding-y: 0.2rem;
+  &:hover {
+    color: $navbar-transparent-hover-color;
+  }
 }
 .navbar-brand__text {
   display: inline-block;
