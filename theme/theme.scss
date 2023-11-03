@@ -1,11 +1,10 @@
-// bootstrap owerrides goes here  
+// bootstrap owerrides goes here
 $primary: #2e4aaa;
 $secondary: #f4f5f7;
 $dark: #373e52;
 $info: #979797;
 $blue: #162142;
 $white: #ffffff;
-
 
 $nav-link-font-size: 1rem;
 $nav-link-padding-y: 0;
@@ -28,7 +27,6 @@ $accordion-button-active-bg: $secondary;
 $card-border-radius: 10px;
 $input-border-radius: 0;
 $input-line-height: 3;
-
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "_custom.scss";
