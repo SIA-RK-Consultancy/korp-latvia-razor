@@ -12077,6 +12077,9 @@ p {
   line-height: 1.6rem;
   --bs-navbar-brand-padding-y: 0.2rem;
 }
+.navbar-brand:hover {
+  color: rgba(255, 255, 255, 0.5176470588);
+}
 
 .navbar-brand__text {
   display: inline-block;
