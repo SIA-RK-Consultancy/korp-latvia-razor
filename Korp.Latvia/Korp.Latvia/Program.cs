@@ -17,6 +17,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseStatusCodePagesWithRedirects("/Error?statusCode={0}");
 app.MapGet("/kalendars", context =>
 {
     context.Response.Redirect("https://kalendars.latvus.lv", permanent: true);
