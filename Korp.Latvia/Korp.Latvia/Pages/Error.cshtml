@@ -1,7 +1,7 @@
 ﻿@page
 @model ErrorModel
 @{
-	ViewData["Title"] = "Error";
+    ViewData["Title"] = "Error";
 }
 
 <br />
@@ -12,19 +12,19 @@
 
 @if (Model.ShowNotFound)
 {
-	<h1 class="text-info">Lapa nav atrasta.</h1>
-	<br />
+    <h1 class="text-info">Lapa nav atrasta.</h1>
+    <br />
 }
 else
 {
-	<h1 class="text-danger">Kļūda.</h1>
-	<h2 class="text-danger">Pieprasījuma apstrādes laikā notikusi neparedzēta kļūda </h2>
-	<h3 class ="text-danger"> Atkārto darbību vēlreiz. Ja kļūda atkārtojas - sazinies ar lapas uzturētāju</h3>
+    <h1 class="text-danger">Kļūda.</h1>
+    <h2 class="text-danger">Pieprasījuma apstrādes laikā notikusi neparedzēta kļūda </h2>
+    <h3 class="text-danger"> Atkārto darbību vēlreiz. Ja kļūda atkārtojas - sazinies ar lapas uzturētāju</h3>
 
-	@if (Model.ShowRequestId)
-	{
-		<p>
-			<strong>Pieprasījuma ID:</strong> <code>@Model.RequestId</code>
-		</p>
-	}
+    @if (Model.ShowRequestId)
+    {
+        <p>
+            <strong>Pieprasījuma ID:</strong> <code>@Model.RequestId</code>
+        </p>
+    }
 }

@@ -7,10 +7,10 @@ namespace Korp.Latvia.Pages
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     [IgnoreAntiforgeryToken]
     public class ErrorModel : PageModel
-	{
-		public bool ShowNotFound { get; set; } 
+    {
+        public bool ShowNotFound { get; set; }
 
-		public string? RequestId { get; set; }
+        public string? RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
@@ -23,7 +23,7 @@ namespace Korp.Latvia.Pages
 
         public void OnGet(int? statusCode)
         {
-            if (statusCode == 404) 
+            if (statusCode == 404)
             {
                 ShowNotFound = true;
             }
